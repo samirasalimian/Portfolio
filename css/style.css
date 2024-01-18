@@ -1,0 +1,44 @@
+body{
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    margin: 10px 20px;
+    background-color:#f837;
+}
+
+.orange-color{color: #f75836;}
+    
+/* for removing dots of the list items */
+li::marker{color: transparent;}
+
+/* for removing left padding for the bullets */
+ul{
+    padding-inline-start: 0;
+}
+
+ul li{
+    padding: 7px 0;
+}
+
+img.avatar{
+    border-radius: 30px;;
+}
+
+.divider{padding: 5px 0;;}
+
+a.email-button{color: blueviolet;}
+a:hover{color: #f83637;}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #F75836;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #F75836;
+  }
