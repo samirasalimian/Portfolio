@@ -29,6 +29,7 @@ img.avatar {
 
 hr {
   border-color: black;
+  margin: 2rem 0;
 }
 
 a.email-button {
@@ -51,4 +52,10 @@ th {
 
 tr:nth-child(even) {
   background-color: #f75836;
+}
+
+.card {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 1rem;
 }
