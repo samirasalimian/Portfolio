@@ -9,18 +9,25 @@ body {
   color: #f75836;
 }
 
-/* for removing dots of the list items */
-li::marker {
-  color: transparent;
-}
-
 /* for removing left padding for the bullets */
 ul {
   padding-inline-start: 0;
+  list-style: none;
 }
 
 ul li {
   padding: 7px 0;
+}
+
+ul li.item-with-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li.item-with-icon img {
+  width: 30px;
+  margin-right: 5px;
 }
 
 img.avatar {
