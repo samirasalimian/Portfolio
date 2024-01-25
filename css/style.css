@@ -32,6 +32,7 @@ ul li.item-with-icon img {
 }
 
 ul li.item-with-icon img:hover{
+  width: 34px;
   filter: invert(20%) sepia(243%) saturate(1576%) hue-rotate(-21deg) brightness(137%) contrast(73%);
 }
 
