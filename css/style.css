@@ -1,37 +1,64 @@
 body {
   font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+main {
   text-align: center;
-  margin: 10px 20px;
+  padding: 20px;
   background-color: #fe9a52;
+}
+
+footer {
+  text-align: center;
 }
 
 .orange-color {
   color: #f75836;
 }
 
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li:not(:last-child) {
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.nav-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 /* for removing left padding for the bullets */
-ul {
+main ul {
   padding-inline-start: 0;
   list-style: none;
 }
 
-ul li {
+main ul li {
   padding: 7px 0;
 }
 
-ul li.item-with-icon {
+main ul li.item-with-icon {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-ul li.item-with-icon img {
+main ul li.item-with-icon img {
   width: 30px;
   margin-right: 7px;
 
 }
 
-ul li.item-with-icon img:hover{
+main ul li.item-with-icon img:hover {
   margin-right: 11px;
   filter: invert(20%) sepia(243%) saturate(1576%) hue-rotate(-21deg) brightness(137%) contrast(73%);
 }
@@ -48,6 +75,7 @@ hr {
 a.email-button {
   color: blueviolet;
 }
+
 a:hover {
   color: #f83637;
 }
@@ -73,5 +101,6 @@ tr:nth-child(even) {
   padding: 1rem;
 }
 
-.purple_color{color: #521752;}
-
+.purple_color {
+  color: #521752;
+}
