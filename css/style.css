@@ -28,6 +28,11 @@ ul li.item-with-icon {
 ul li.item-with-icon img {
   width: 30px;
   margin-right: 7px;
+
+}
+
+ul li.item-with-icon img:hover{
+  filter: invert(20%) sepia(243%) saturate(1576%) hue-rotate(-21deg) brightness(137%) contrast(73%);
 }
 
 img.avatar {
@@ -68,3 +73,4 @@ tr:nth-child(even) {
 }
 
 .purple_color{color: #521752;}
+
