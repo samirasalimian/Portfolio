@@ -17,18 +17,35 @@ footer {
   color: #f75836;
 }
 
-nav ul {
+nav {
   display: flex;
   align-items: center;
-  list-style: none;
-}
+  justify-content: space-between;
 
-nav ul li:not(:last-child) {
-  margin-right: 2rem;
-}
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
 
-nav ul li a {
-  text-decoration: none;
+    li {
+      margin-right: 2rem;
+
+      a {
+        text-decoration: none;
+        color: #f75836;
+
+        &:hover {
+          color: #fe9a52;
+        }
+      }
+    }
+  }
+
+  .contacts {
+    img {
+      height: 2rem;
+    }
+  }
 }
 
 .nav-title {
@@ -55,12 +72,12 @@ main ul li.item-with-icon {
 main ul li.item-with-icon img {
   width: 30px;
   margin-right: 7px;
-
 }
 
 main ul li.item-with-icon img:hover {
   margin-right: 11px;
-  filter: invert(20%) sepia(243%) saturate(1576%) hue-rotate(-21deg) brightness(137%) contrast(73%);
+  filter: invert(20%) sepia(243%) saturate(1576%) hue-rotate(-21deg)
+    brightness(137%) contrast(73%);
 }
 
 img.avatar {
